@@ -73,7 +73,7 @@ Distance vs Price regression
 Fuel/Drive/Type vs Price distributions
 (visuals available in the notebook)
 
-Deployment Model 
+### Deployment Model 
 After succesfull trained and saved the model 
 Run the deployment for the cars24_prediction
 It will direct you to the web browser from streamlit and the model deployment is hosted on the localhost for the cars24_prediction
