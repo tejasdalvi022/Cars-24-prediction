@@ -73,10 +73,9 @@ Distance vs Price regression
 Fuel/Drive/Type vs Price distributions
 (visuals available in the notebook)
 
-✨ Future Improvements
-Try advanced regression models: Random Forest, XGBoost, Gradient Boosting
-Hyperparameter tuning for better accuracy
-Feature engineering (e.g., car age instead of year)
-Deploy as a Streamlit / Flask web app
+Deployment Model 
+After succesfull trained and saved the model 
+Run the deployment for the cars24_prediction
+It will direct you to the web browser from streamlit and the model deployment is hosted on the localhost for the cars24_prediction
 
 
