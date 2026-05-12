@@ -26,7 +26,7 @@ Target (y): Price
 Preprocessing:
 One-hot encoded categorical features
 Model: Linear Regression
-Pipeline created for seamless transformation + model training
+ model training
 5. Model Evaluation
 Metrics used:
 R² Score
@@ -37,7 +37,7 @@ MAE: ~ (value depends on dataset)
 RMSE: ~ (value depends on dataset)
 6. Model Deployment
 Final trained model saved as:
-LinearRegressionModelv2.pkl
+RandomForestRegressor
 🛠️ Tech Stack
 Python 🐍
 Pandas, NumPy – Data manipulation
@@ -52,19 +52,19 @@ Pickle – Model saving
 🚀 How to Run
 Clone this repository:
 
-git clone https://github.com/your-username/cars24-price-prediction.git
+git clone https://github.com/your-username/cars24_price_prediction.git
 cd cars24-price-prediction
 Install dependencies:
 
 pip install -r requirements.txt
 Run the notebook or script to train the model:
 
-jupyter notebook "Cars 24 Prediction.ipynb"
+jupyter notebook "Cars24_Prediction.ipynb"
 Use the saved model (car_prediction_model.pkl) for predictions:
 
 import pickle
 
-model = pickle.load(open('LinearRegressionModelv2.pkl', 'rb'))
+model = pickle.load(open('car_prediction_model.pkl', 'rb'))
 prediction = model.predict([your_input_features])
 print(prediction)
 📊 Example Visualization
@@ -75,7 +75,7 @@ Fuel/Drive/Type vs Price distributions
 
 ### Deployment Model 
 After succesfull trained and saved the model 
-Run the deployment for the cars24_prediction
+Run the deployment for the cars24_prediction.py
 It will direct you to the web browser from streamlit and the model deployment is hosted on the localhost for the cars24_prediction
 
 
