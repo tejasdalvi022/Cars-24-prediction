@@ -3,7 +3,7 @@ Live Link -
 
 # 🚗 Cars24 Price Prediction
 This project predicts used car prices based on features such as car name, year, location, fuel type, drive type, distance driven, and ownership details.
-The dataset was sourced from Cars24 combined data, cleaned, and analyzed before training a Linear Regression model.
+The dataset was sourced from Cars24 data, cleaned, and analyzed before training a Linear Regression model.
 
 ## 📌 Project Workflow
 
