@@ -1,4 +1,4 @@
-# Car-Price-Prediction-cars-24-Dataset-Linear-Regression-
+# Car-Price-Prediction-cars-24-Dataset
 Live Link - 
 
 # 🚗 Cars24 Price Prediction
